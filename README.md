@@ -41,14 +41,14 @@ Prompt x
 Output y
 ```
 
-**Key results (AI Constitution of India benchmark, 46K prompts):**
+**Key results (AI Constitution of India benchmark):**
 - Up to **26.41% IIR reduction** on religion-conditioned prompts
 - Up to **22.8% IIR reduction** on caste-conditioned prompts
 - Only **~6% latency overhead** over greedy decoding
 - Evaluated on **14 LLMs**: GPT-4o, DeepSeek-V3, Llama-3, Gemma, and Indic models
 
 ---
-
+![Components of Ambedkar](images/Components_SpecDec1_cropped_page-0001.jpg)
 ## Benchmark: AI Constitution of India
 
 | Dimension | Scale |
