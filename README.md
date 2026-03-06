@@ -1,12 +1,12 @@
 # AMBEDKAR — Adaptive Mitigation of Bias through Equitable Decoding and Knowledge-Aware Re-ranking
 
-[![ACL 2026](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
+[![ARR](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
 [![MIT Technology Review](https://img.shields.io/badge/MIT_Tech_Review-Featured-red.svg)](https://www.technologyreview.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-yellow.svg)](https://www.python.org/)
 [![CI](https://github.com/ambedkar-acl2026/AMBEDKAR/actions/workflows/ci.yml/badge.svg)](https://github.com/ambedkar-acl2026/AMBEDKAR/actions)
 
-> **Official implementation** of *"AMBEDKAR: Adaptive Mitigation of Bias through Equitable Decoding and Knowledge-Aware Re-ranking"* — accepted at **ACL 2026**.  
+> **Official implementation** of *"AMBEDKAR: Adaptive Mitigation of Bias through Equitable Decoding and Knowledge-Aware Re-ranking"*.  
 > Featured in [MIT Technology Review](https://www.technologyreview.com/).
 
 ---
@@ -224,7 +224,7 @@ print(f"Per-religion : {result.per_religion_iir}")
 print(f"Per-caste    : {result.per_caste_iir}")
 ```
 
-### JavaScript-divergence utility
+### JS-divergence utility
 
 ```python
 import torch
@@ -330,24 +330,7 @@ The AMBEDKAR framework is intended as a bias *mitigation* tool. Deployers remain
 
 ## Citation
 
-If you use this code, data, or benchmark, please cite:
 
-```bibtex
-@inproceedings{ambedkar2026,
-  title     = {{AMBEDKAR}: Adaptive Mitigation of Bias through Equitable
-               Decoding and Knowledge-Aware Re-ranking},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the 64th Annual Meeting of the Association
-               for Computational Linguistics (ACL 2026)},
-  year      = {2026},
-  note      = {To appear. Preprint covered in MIT Technology Review.},
-  url       = {https://anonymous.4open.science/r/AMBEDKAR-983B/},
-}
-```
-
-Full citations for the benchmark and related methods are in [`CITATION.bib`](CITATION.bib).
-
----
 
 ## License
 
