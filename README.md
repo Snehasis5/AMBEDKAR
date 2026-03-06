@@ -4,7 +4,7 @@
 [![MIT Technology Review](https://img.shields.io/badge/MIT_Tech_Review-Featured-red.svg)](https://www.technologyreview.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-yellow.svg)](https://www.python.org/)
-[![CI](https://github.com/ambedkar-acl2026/AMBEDKAR/actions/workflows/ci.yml/badge.svg)](https://github.com/ambedkar-acl2026/AMBEDKAR/actions)
+
 
 > **Official implementation** of *"AMBEDKAR: Adaptive Mitigation of Bias through Equitable Decoding and Knowledge-Aware Re-ranking"*.  
 > Featured in [MIT Technology Review](https://www.technologyreview.com/).
