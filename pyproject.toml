@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["ambedkar"]
+omit = ["tests/*", "scripts/*"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false

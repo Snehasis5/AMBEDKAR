@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch / HuggingFace
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+mlruns/
+
+# Results & outputs (keep structure, not data)
+results/
+!results/.gitkeep
+
+# Data (large files — use Git LFS or download script)
+data/constitution_qa/*.jsonl
+!data/constitution_qa/.gitkeep
+data/raw/
+
+# Coverage / testing
+.coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key

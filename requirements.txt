@@ -1,0 +1,33 @@
+# Core runtime dependencies
+# Generated for AMBEDKAR v1.0.0 (ACL 2026)
+# Python >= 3.9
+
+# Deep learning
+torch>=2.0.0
+transformers>=4.38.0
+accelerate>=0.24.0
+
+# Data & numerics
+numpy>=1.24.0
+scipy>=1.10.0
+datasets>=2.14.0
+
+# Utilities
+tqdm>=4.65.0
+
+# ──────────────────────────────────────────────
+# Optional — install with:  pip install -e ".[dev]"
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# isort>=5.12.0
+# flake8>=6.0.0
+
+# Optional — install with:  pip install -e ".[notebook]"
+# jupyter>=1.0.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+# pandas>=2.0.0
+
+# Optional — WordNet antonym enrichment:  pip install -e ".[wordnet]"
+# nltk>=3.8.0
