@@ -1,5 +1,5 @@
 # AMBEDKAR — Adaptive Mitigation of Bias through Equitable Decoding and Knowledge-Aware Re-ranking
-![AMBEDKAR Logo](images/image.png)
+
 [![ARR](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
 [![MIT Technology Review](https://img.shields.io/badge/MIT_Tech_Review-Featured-red.svg)](https://www.technologyreview.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
